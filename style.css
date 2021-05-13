@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f2f2f2;
+}
+.card-group {
+  height: 500px;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 171px auto;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.card-1 {
+  height: 100%;
+  width: 307px;
+  background-color: #E28625;
+  color: #fff;
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  flex-direction: column;
+}
+.card-2 {
+  background-color: #006971;
+  color: #fff;
+  height: 100%;
+  width: 307px;
+  display: flex;
+  flex-direction: column;
+}
+.card-3 {
+  background-color: #004140;
+  color: #fff;
+  height: 100%;
+  width: 307px;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 48px;
+  margin-top: 43px;
+
+}
+.car-image {
+  height: 40px;
+  width: 64px;
+  margin-left: 48px;
+  margin-top: 48px;
+  
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 47.5px; 
+  margin-top: 45px;
+  text-align: left;
+  height: 125px;
+  width: 212px;
+  line-height: 1.5;
+  letter-spacing: 1.75px;
+}
+button {
+  height: 48px;
+  width: 146px;
+  border-radius: 25px;
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  margin-left: 48px;
+  margin-top: 58px;
+}
+.card-1 button {
+  color: #E28625;
+}
+.card-2 button {
+  color: #006971;
+}
+.card-3 button {
+  color: #004140;
+  
+}
